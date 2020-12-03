@@ -14,9 +14,12 @@ class day3Test {
         obj.inorder();
         System.out.println("--");
         System.out.println();
+        // method 1
 //        obj.increasingBST();
 //        obj.inorder();
         //
+
+        // method 2
         System.out.println("__");
         obj.method2();
         obj.inorder();
