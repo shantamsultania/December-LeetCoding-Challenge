@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -12,7 +14,7 @@ public class day6 {
     {
         root = null;
     }
-    void insertBT(int a[])
+    void insertBT(int @NotNull []a)
     {
         for(int v : a)
         {
