@@ -1,8 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
 public class day17 {
-
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int x: A) {
@@ -18,6 +16,4 @@ public class day17 {
         }
         return total;
     }
-
-
 }
